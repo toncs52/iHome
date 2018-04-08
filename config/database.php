@@ -55,7 +55,7 @@ return [
         ],*/
 
         'mysql' => [
-            'driver' => 'mysql', 
+            'driver' => 'mysql',
             'host' => 'http://www.chomjun.com/phpmyadmin/',
             'port' => '80',
             'database' => env('chomjuncom_dbdn60', 'forge'),
