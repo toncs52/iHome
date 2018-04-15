@@ -55,19 +55,20 @@ return [
         ],*/
 
         'mysql' => [
-            'driver' => 'mysql',
-            'host' => 'http://www.chomjun.com/phpmyadmin/',
-            'port' => '80',
-            'database' => env('chomjuncom_dbdn60', 'forge'),
-            'username' => env('chomjuncom_n60', 'forge'),
-            'password' => env('dbdn60070318', ''),
-            'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => true,
-            'engine' => null,
+        'driver' => 'mysql',
+        'host' => env('DB_HOST', 'localhost'),
+        'port' => env('DB_PORT', '3306'),
+        'database' => env('DB_DATABASE', 'ihome'),
+        'username' => env('DB_USERNAME', 'root'),
+        'password' => env('DB_PASSWORD', 'root'),
+        'unix_socket' => env('DB_SOCKET', ''),
+        'charset' => 'utf8',
+        'collation' => 'utf8_unicode_ci',
+        'prefix' => '',
+        'strict' => true,
+        'engine' => null,
         ],
+
 
         'pgsql' => [
             'driver' => 'pgsql',

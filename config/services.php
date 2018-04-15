@@ -35,4 +35,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => '189167118375121',
+        'client_secret' => '9c9e14ec1c52ad21b729514d4d1b7a48',
+        'redirect' => 'https://localhost/iHomeService/public/callback',
+    ],
+
 ];
