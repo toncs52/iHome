@@ -151,6 +151,8 @@
               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
             </a>
           </div>
+          <a href="https://localhost/forums" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">ดูทั้งหมด</a>
+
         </div>
       </div>
     </section>
