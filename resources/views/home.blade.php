@@ -14,7 +14,11 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    คุณเข้าสู่ระบบสำเร็จ
+                    ระบบกำลังพาท่านไปหน้ากระทู้...
+                        <script type="text/javascript">
+                            setTimeout("location.href = '/forums';",1500);
+                        </script>
                 </div>
             </div>
         </div>
