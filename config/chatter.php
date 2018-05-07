@@ -147,7 +147,7 @@ return [
     */
 
     'security' => [
-        'limit_time_between_posts' => true, //
+        'limit_time_between_posts' => false, //
         'time_between_posts'       => 1, // In minutes
     ],
 
@@ -223,7 +223,7 @@ return [
     */
 
     'email' => [
-        'enabled' => false,
+        'enabled' => true,
         'view'    => 'chatter::email',
     ],
 
@@ -284,22 +284,22 @@ return [
         'global'     => ['web'],
         'home'       => [],
         'discussion' => [
-            'index'   => [],
-            'show'    => [],
-            'create'  => [],
-            'store'   => [],
-            'destroy' => [],
-            'edit'    => [],
-            'update'  => [],
+            'index'   => ['role:admin'],
+            'show'    => ['role:admin'],
+            'create'  => ['role:admin'],
+            'store'   => ['role:admin'],
+            'destroy' => ['role:admin'],
+            'edit'    => ['role:admin'],
+            'update'  => ['role:admin'],
         ],
         'post' => [
-            'index'   => [],
-            'show'    => [],
-            'create'  => [],
-            'store'   => [],
-            'destroy' => [],
-            'edit'    => [],
-            'update'  => [],
+            'index'   => ['role:admin'],
+            'show'    => ['role:admin'],
+            'create'  => ['role:admin'],
+            'store'   => ['role:admin'],
+            'destroy' => ['role:admin'],
+            'edit'    => ['role:admin'],
+            'update'  => ['role:admin'],
         ],
         'category' => [
             'show' => [],

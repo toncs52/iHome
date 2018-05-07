@@ -3,6 +3,9 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -61,14 +64,15 @@
                                     </a>
                                 </div>
                             </div>
-                            <br />
-                            <p style="margin-left:265px">OR</p>
-                            <br />
-                            <div class="form-group">
+
+
+                                <div class="form-group">
+                                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                                 <div class="col-md-8 col-md-offset-4">
-                                    <a href="{{url('/redirect')}}" class="btn btn-primary">Login with Facebook</a>
+                                    <a href="{{url('/redirect')}}" class="btn btn-primary"><i class='fa fa-facebook'> </i> Login with Facebook</a>
                                 </div>
                             </div>
+
                         </form>
                     </div>
                 </div>
