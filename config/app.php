@@ -151,7 +151,6 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         jeremykenedy\laravelusers\LaravelUsersServiceProvider::class,
         jeremykenedy\LaravelRoles\RolesServiceProvider::class,
-        Musonza\Chat\ChatServiceProvider,
 
 
         /*
@@ -218,7 +217,6 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'Chat' => Musonza\Chat\Facades\ChatFacade::class
     ],
 
 

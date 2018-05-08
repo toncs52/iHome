@@ -21,18 +21,18 @@ return [
         'login'      => 'login',
     ],
 
-   /*
-    |--------------------------------------------------------------------------
-    | Headline logo
-    |--------------------------------------------------------------------------
-    |
-    | Specify the url for your logo. If left empty the headline and
-    | description from the language files will be used.
-    |
-    |   *headline_logo*: If this is set an image will be used on the forum home
-    |       instead of text. Specify the relative path to the image here.
-    |
-    */
+    /*
+     |--------------------------------------------------------------------------
+     | Headline logo
+     |--------------------------------------------------------------------------
+     |
+     | Specify the url for your logo. If left empty the headline and
+     | description from the language files will be used.
+     |
+     |   *headline_logo*: If this is set an image will be used on the forum home
+     |       instead of text. Specify the relative path to the image here.
+     |
+     */
 
     'headline_logo' => 'img/profile.png',
 
@@ -284,22 +284,22 @@ return [
         'global'     => ['web'],
         'home'       => [],
         'discussion' => [
-            'index'   => ['role:admin'],
-            'show'    => ['role:admin'],
-            'create'  => ['role:admin'],
-            'store'   => ['role:admin'],
-            'destroy' => ['role:admin'],
-            'edit'    => ['role:admin'],
-            'update'  => ['role:admin'],
+            'index'   => [],
+            'show'    => [],
+            'create'  => [],
+            'store'   => [],
+            'destroy' => [],
+            'edit'    => [],
+            'update'  => [],
         ],
         'post' => [
-            'index'   => ['role:admin'],
-            'show'    => ['role:admin'],
-            'create'  => ['role:admin'],
-            'store'   => ['role:admin'],
-            'destroy' => ['role:admin'],
-            'edit'    => ['role:admin'],
-            'update'  => ['role:admin'],
+            'index'   => [],
+            'show'    => [],
+            'create'  => [],
+            'store'   => [],
+            'destroy' => [],
+            'edit'    => [],
+            'update'  => [],
         ],
         'category' => [
             'show' => [],

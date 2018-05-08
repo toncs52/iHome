@@ -4,6 +4,8 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class Kernel extends ConsoleKernel
 {
